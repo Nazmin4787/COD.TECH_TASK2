@@ -12,4 +12,5 @@ PROJECT:STUDENT GRADE TRACKER
 Objective: The main objective of this project is to caclculate the grade of the students by taking inputs as marks which is entered by students.
 The aim of this student grade tracker is to calculate average of the total marks along with the CGPA of the students.
 
+
  
