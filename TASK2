@@ -1,0 +1,38 @@
+def avg(*numbers):  //FUNCTION FOR CALCULATE AVERAGE
+    
+    sum=0
+    for i in numbers:
+        sum=sum+i
+    return sum/len(numbers)
+
+ 
+
+eng=int(input("Enter the marks of English:"))
+math=int(input("Enter the marks of Maths:"))
+chem=int(input("Enter the marks of Chemistry:"))
+bio=int(input("Enter the marks of Biology:"))
+phys=int(input("Enter the marks of Physics:"))
+
+marks=avg(eng,math,chem,bio,phys)
+CGPA=marks/10
+
+
+if(marks>=90):
+    print("grade if the student is:O")
+elif(marks>=80 ,'&' ,marks<90):
+    print("grade if the student is:A++")
+elif(marks>=70 , '&' , marks<80):
+    print("grade if the student is:A")
+elif(marks>=50,'&', marks<70):
+    print("grade if the student is:B")
+elif(marks>=35 ,'&', marks<50):
+    print("grade is the student is:C")
+else:
+    print("failed")
+
+print("CGPA  of student is :" , CGPA)
+
+
+
+
+
